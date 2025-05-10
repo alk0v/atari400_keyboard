@@ -1,0 +1,8642 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d24fcd17-a9e4-45f3-81ec-57276d632ae6")
+	(paper "A3")
+	(title_block
+		(title "Atari 400 Keyboard Schematic")
+		(date "2025-05-10")
+		(rev "1.0")
+		(company "Software & Computer Museum")
+	)
+	(lib_symbols
+		(symbol "Atari 400:Key"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 0 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Key_0_1"
+				(circle
+					(center 0 -5.08)
+					(radius 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Key_1_1"
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 191.77 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00136ffb-ef11-4f84-8b74-500f59c13c2c")
+	)
+	(junction
+		(at 123.19 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01c5a5e8-1bb9-46ca-9224-feef59a7b423")
+	)
+	(junction
+		(at 293.37 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03737f5a-e9c1-41b3-8ace-7e110b5a33ab")
+	)
+	(junction
+		(at 191.77 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0635b572-7307-4ee0-99da-f62527869e0d")
+	)
+	(junction
+		(at 344.17 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08dd1f3d-8980-4023-854b-0d794370d97d")
+	)
+	(junction
+		(at 318.77 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0938b1b8-95bf-4ace-b264-334a9c51d336")
+	)
+	(junction
+		(at 115.57 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a23d450-ce50-4e45-80b8-231eca96c6b1")
+	)
+	(junction
+		(at 344.17 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c1af42f-c40b-4f37-9468-75c5fa0331ec")
+	)
+	(junction
+		(at 300.99 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0da2a0c9-b5fb-40c6-a767-577afa94330a")
+	)
+	(junction
+		(at 46.99 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "116b1dd6-d2f9-4190-9a2a-74f34560a1d3")
+	)
+	(junction
+		(at 351.79 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "130e4f37-6d5c-4ec7-bd40-e28acb069981")
+	)
+	(junction
+		(at 97.79 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "173eed33-b231-494f-add2-31810c770d1d")
+	)
+	(junction
+		(at 267.97 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "196a1f83-055d-4d05-b00d-ee5202d28519")
+	)
+	(junction
+		(at 377.19 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19899cd6-f439-4b04-b79d-87376c8cd954")
+	)
+	(junction
+		(at 90.17 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d1e33ef-94f1-4020-856e-55d7a2bafaff")
+	)
+	(junction
+		(at 318.77 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "204b5381-0b07-4db7-a5f5-a89a0697f7d7")
+	)
+	(junction
+		(at 72.39 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21aea328-b73d-4e81-94f6-09fe2449acd6")
+	)
+	(junction
+		(at 199.39 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24c05289-36c7-4020-8985-4eee9f1295b8")
+	)
+	(junction
+		(at 300.99 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ab54a80-38f8-4a0a-b619-e73fce1165e8")
+	)
+	(junction
+		(at 97.79 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bf1d099-18e3-4e8d-a42f-fdcb80342568")
+	)
+	(junction
+		(at 148.59 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ef31e20-275f-4f7b-bd79-ad947ce4a6cf")
+	)
+	(junction
+		(at 275.59 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34226a8d-63f3-4955-99c2-db113dc4047b")
+	)
+	(junction
+		(at 351.79 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "356e74a2-db82-43c7-b1cc-b7f9bc87521f")
+	)
+	(junction
+		(at 49.53 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3699594a-6eb6-47af-93f1-ca83a993cc29")
+	)
+	(junction
+		(at 173.99 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38e88ed4-548a-41af-89a3-81e85a5d0fae")
+	)
+	(junction
+		(at 267.97 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cf7cd93-89cd-4c94-87f3-fb4267a0906e")
+	)
+	(junction
+		(at 250.19 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e3edf2c-2c3e-4109-909c-b6d9a2836897")
+	)
+	(junction
+		(at 173.99 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e703b47-124f-4310-a645-c63a49eb10aa")
+	)
+	(junction
+		(at 46.99 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4175d5b4-94f6-47cd-b5ab-d7aea0fa6097")
+	)
+	(junction
+		(at 49.53 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4670dfa7-30df-43df-875e-a651a6707d50")
+	)
+	(junction
+		(at 300.99 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48daaa9b-9590-4ce9-a16e-1da6973134c7")
+	)
+	(junction
+		(at 326.39 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ec2d1f6-47b3-48e3-8c02-bdbcb31b9082")
+	)
+	(junction
+		(at 250.19 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "564d6f8d-94d4-40e6-857c-da4d0bb88d40")
+	)
+	(junction
+		(at 166.37 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58b41f04-feb4-474b-84f8-3de502e9fbbb")
+	)
+	(junction
+		(at 72.39 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59b7a9ed-6fc0-4be3-ad28-6f2942ce49ad")
+	)
+	(junction
+		(at 140.97 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b1d25e3-e6e1-4f08-9fc7-ed5dc48fbd59")
+	)
+	(junction
+		(at 97.79 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f64a67d-a40f-4c0b-8e32-8c3972ce9463")
+	)
+	(junction
+		(at 267.97 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60a6a4d4-4cd4-4459-83d6-66032936c72b")
+	)
+	(junction
+		(at 318.77 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "627557d0-8118-4947-9083-a19eea085002")
+	)
+	(junction
+		(at 377.19 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6354d3b3-9a68-464b-8079-36b6b882cb68")
+	)
+	(junction
+		(at 199.39 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6444f5bb-befe-4e57-a714-6b375d42a0b5")
+	)
+	(junction
+		(at 148.59 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64488800-1dc5-4e95-82f0-38a276ab940f")
+	)
+	(junction
+		(at 250.19 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6548a1b5-230b-4466-8583-a958e4ea6523")
+	)
+	(junction
+		(at 166.37 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "676d2282-6d17-4641-8bd6-6aa01dd2d7e9")
+	)
+	(junction
+		(at 344.17 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "686a342e-3157-4e79-8026-00d5bb1f07ac")
+	)
+	(junction
+		(at 326.39 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "722cd97c-49d8-4fc0-9edb-169f5d467e5d")
+	)
+	(junction
+		(at 115.57 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "724656e8-5c80-45ff-abd8-a677794cdece")
+	)
+	(junction
+		(at 318.77 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "781ab198-9d18-43c6-9056-c78aded0385a")
+	)
+	(junction
+		(at 166.37 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "799f5745-9802-48cd-b7d2-147f5ba7847a")
+	)
+	(junction
+		(at 72.39 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7de9d626-3a93-47e3-858c-9daf716a1b18")
+	)
+	(junction
+		(at 123.19 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7faad294-723b-447d-89df-53bfd9b08403")
+	)
+	(junction
+		(at 394.97 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8196e01e-06fb-4a02-a79b-579cdd9bea78")
+	)
+	(junction
+		(at 293.37 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8777b474-1743-475b-8b97-a88df5b500f8")
+	)
+	(junction
+		(at 191.77 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89ee2323-553a-4753-9996-c5fa0e1d22db")
+	)
+	(junction
+		(at 275.59 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a72bd6d-bdd4-4af0-af98-76aedac6f7af")
+	)
+	(junction
+		(at 222.25 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90b32f96-4b1e-4707-956b-6e199da275c4")
+	)
+	(junction
+		(at 369.57 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91dda8c0-7b9b-4e28-9ea8-b8e94b284d46")
+	)
+	(junction
+		(at 64.77 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93460f12-b7d7-48f4-97c2-3271b1a2fbfa")
+	)
+	(junction
+		(at 224.79 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "960ed588-af11-4434-9c35-5e06af8e7895")
+	)
+	(junction
+		(at 242.57 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9733ad7d-f864-4b4f-9ad0-bd30534ad0a9")
+	)
+	(junction
+		(at 123.19 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "992b77bf-92a3-44f5-9125-5712862fa2db")
+	)
+	(junction
+		(at 140.97 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cc86c67-d52d-4cbf-87ad-aecb88c6df58")
+	)
+	(junction
+		(at 123.19 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d0b3ae5-b8f6-494c-8931-95018502c508")
+	)
+	(junction
+		(at 224.79 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9eec398f-a85f-4517-be52-5cafd3044f79")
+	)
+	(junction
+		(at 240.03 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fc39510-5a94-4cb1-a833-d306bbadbaac")
+	)
+	(junction
+		(at 173.99 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3d91ae9-b76d-4dba-8edb-1b140b45f997")
+	)
+	(junction
+		(at 369.57 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4214f70-af08-4b2a-9a26-86e6c8676cc2")
+	)
+	(junction
+		(at 90.17 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a44808f9-eacf-4738-bc8c-8d4b78bb3d64")
+	)
+	(junction
+		(at 173.99 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a557e0ec-cbd1-4456-a063-2104ff89de5a")
+	)
+	(junction
+		(at 394.97 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6812c53-cdaa-4e8b-99cc-c9c7502de321")
+	)
+	(junction
+		(at 148.59 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9e385b3-6fae-4da4-8f31-ff4099514309")
+	)
+	(junction
+		(at 199.39 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adf45b8e-9c92-49e0-9b8d-1df0d4376317")
+	)
+	(junction
+		(at 72.39 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b150e37c-9b7f-4c73-b6fa-a8ef66c7f813")
+	)
+	(junction
+		(at 46.99 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b15fb729-f112-4ca2-ab87-ca82a2f2d4cc")
+	)
+	(junction
+		(at 140.97 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b54be065-944c-4ded-8363-c3f0bf4c7867")
+	)
+	(junction
+		(at 293.37 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5e6092a-deb9-44f5-bf6a-6a1dee5e3eeb")
+	)
+	(junction
+		(at 115.57 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7378716-a3dd-4c60-afda-639f9faa905d")
+	)
+	(junction
+		(at 21.59 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb889d83-ecde-4574-b00d-d6161d88e0ca")
+	)
+	(junction
+		(at 64.77 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c031f12f-31cd-433b-8f0c-be74a62be01e")
+	)
+	(junction
+		(at 97.79 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c12feeb5-f0d9-40b5-bbcb-b5b892e7a353")
+	)
+	(junction
+		(at 148.59 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2b48c00-4ef7-4c8d-80e0-0709e50a425f")
+	)
+	(junction
+		(at 293.37 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3aa9731-c3e9-4d5e-8ddc-7d9d5d171046")
+	)
+	(junction
+		(at 267.97 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c713843c-1073-40cf-bebb-981974e7b4d7")
+	)
+	(junction
+		(at 140.97 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8b73c99-bfab-4cc2-a52c-48d083bbdfde")
+	)
+	(junction
+		(at 115.57 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9eaa3f3-de00-4b27-97c2-66fa8f5323c6")
+	)
+	(junction
+		(at 166.37 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb7ebd1c-81da-4c5a-ad1f-6552c5cf9458")
+	)
+	(junction
+		(at 275.59 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce949b3e-d39f-43f3-bde2-8c62d33e9db3")
+	)
+	(junction
+		(at 240.03 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0fb425b-7425-470f-81d6-b12be075a056")
+	)
+	(junction
+		(at 326.39 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1eeda27-2936-493b-b5ff-7348ccf4ea5f")
+	)
+	(junction
+		(at 369.57 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da1d96c2-3975-4c27-a8f2-c6b934a76e80")
+	)
+	(junction
+		(at 49.53 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc7be76f-1ca9-4f10-9d06-999ac677d108")
+	)
+	(junction
+		(at 394.97 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd58f789-d55b-44b0-b749-8f768044e2d9")
+	)
+	(junction
+		(at 344.17 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dead41d5-2341-453e-815b-41742870f26a")
+	)
+	(junction
+		(at 217.17 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df56ccb3-e748-464e-bb35-87e48afb81ad")
+	)
+	(junction
+		(at 394.97 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3e5fc53-e4b4-4c48-a9e8-cf217845f9d4")
+	)
+	(junction
+		(at 46.99 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebf44ef6-f29f-404f-83f8-18ce0f05acd1")
+	)
+	(junction
+		(at 64.77 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efd6c4d7-eab6-42dc-9567-a298006d52ec")
+	)
+	(junction
+		(at 39.37 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f485af83-9fd9-4ed6-a919-99d95a074746")
+	)
+	(junction
+		(at 351.79 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6a5061f-7a41-4dc4-af8f-52903f176034")
+	)
+	(junction
+		(at 191.77 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff80c009-1ce7-4c4a-b183-8e2ea7ead9d1")
+	)
+	(wire
+		(pts
+			(xy 222.25 118.11) (xy 222.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011701b6-f19b-4590-b33c-3232b036b9a3")
+	)
+	(wire
+		(pts
+			(xy 300.99 60.96) (xy 302.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016a23dd-15fc-4899-a87a-3438457bc7b9")
+	)
+	(wire
+		(pts
+			(xy 242.57 54.61) (xy 267.97 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01fe68c3-51c8-42e9-9f48-e52c1a1e64aa")
+	)
+	(wire
+		(pts
+			(xy 250.19 99.06) (xy 250.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0332dd74-9bd3-4f79-8c8f-401d6deb4392")
+	)
+	(wire
+		(pts
+			(xy 114.3 80.01) (xy 115.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b75769-808a-41a2-8ee6-fcfa3f457ae4")
+	)
+	(wire
+		(pts
+			(xy 173.99 80.01) (xy 173.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0650fe32-1a09-4114-ab35-5b89b0cca47f")
+	)
+	(wire
+		(pts
+			(xy 199.39 99.06) (xy 199.39 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0652abfe-d35b-4647-b7db-1de9c865e1eb")
+	)
+	(wire
+		(pts
+			(xy 317.5 60.96) (xy 318.77 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "072106e6-249d-44b1-a626-3fd63a5f97a7")
+	)
+	(wire
+		(pts
+			(xy 88.9 99.06) (xy 90.17 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07306b9d-fd5b-4ba1-8663-b81cd277d7dc")
+	)
+	(wire
+		(pts
+			(xy 115.57 118.11) (xy 115.57 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076f6fa0-c341-4fbd-85f9-55c51790876c")
+	)
+	(wire
+		(pts
+			(xy 64.77 54.61) (xy 39.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b35d8f-ce04-48d6-b500-20402dd09eef")
+	)
+	(wire
+		(pts
+			(xy 267.97 99.06) (xy 267.97 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c7e877-3c35-41b8-a877-4e3447441e1b")
+	)
+	(wire
+		(pts
+			(xy 46.99 60.96) (xy 46.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096e2183-0b7f-4191-8ffd-0e8da39143b4")
+	)
+	(wire
+		(pts
+			(xy 275.59 80.01) (xy 276.86 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a55d8ee-ff3e-4397-bd51-dd25d95531e8")
+	)
+	(wire
+		(pts
+			(xy 195.58 137.16) (xy 199.39 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0afc1c07-f44f-4b7f-8428-529f6f086be0")
+	)
+	(wire
+		(pts
+			(xy 394.97 92.71) (xy 397.51 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b75941c-354c-4577-99ad-beb5d0a98dc0")
+	)
+	(wire
+		(pts
+			(xy 318.77 60.96) (xy 318.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c38d225-f58e-4211-9d03-4cd2e04955a5")
+	)
+	(wire
+		(pts
+			(xy 139.7 80.01) (xy 140.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e1e09bd-1d82-4acd-88a3-764540df7cfd")
+	)
+	(wire
+		(pts
+			(xy 191.77 92.71) (xy 217.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e710628-ae16-4b74-a5f6-26856c439ddc")
+	)
+	(wire
+		(pts
+			(xy 21.59 60.96) (xy 22.86 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efbb7c8-9817-4381-bbda-5e5561275cc2")
+	)
+	(wire
+		(pts
+			(xy 351.79 68.58) (xy 351.79 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11609ff2-3618-4753-8c6d-bed23fe61d5f")
+	)
+	(wire
+		(pts
+			(xy 123.19 60.96) (xy 123.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a8a672-83ac-43d0-8b59-ac2d6e5fd514")
+	)
+	(wire
+		(pts
+			(xy 90.17 118.11) (xy 90.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1247c2c3-db2a-45a7-9480-a4d43547bf33")
+	)
+	(wire
+		(pts
+			(xy 351.79 118.11) (xy 351.79 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e7f95e-6033-404c-8f8a-07214f6475c7")
+	)
+	(wire
+		(pts
+			(xy 166.37 118.11) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1572144f-3154-4639-aa28-5cfb7032c82b")
+	)
+	(wire
+		(pts
+			(xy 226.06 80.01) (xy 224.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162ce108-f01a-41fe-875d-62b852e6a04b")
+	)
+	(wire
+		(pts
+			(xy 267.97 118.11) (xy 266.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172170bf-aac8-45bb-b581-6d9cf4757e6a")
+	)
+	(wire
+		(pts
+			(xy 166.37 92.71) (xy 191.77 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178f61a0-84d9-403c-87d6-db4bd2d2c618")
+	)
+	(wire
+		(pts
+			(xy 46.99 49.53) (xy 46.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e7421f-6256-44ed-b1f7-bd01692aff99")
+	)
+	(wire
+		(pts
+			(xy 48.26 60.96) (xy 46.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1952d776-bd64-4b9e-ae07-f925a25bb707")
+	)
+	(wire
+		(pts
+			(xy 48.26 99.06) (xy 46.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a067523-6622-4689-bb31-d667a3e6b78a")
+	)
+	(wire
+		(pts
+			(xy 293.37 90.17) (xy 318.77 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1afca744-16df-4827-8e6a-986b7b600cf6")
+	)
+	(wire
+		(pts
+			(xy 377.19 118.11) (xy 377.19 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bcebe9a-c98e-4371-9acb-92d4cb4db835")
+	)
+	(wire
+		(pts
+			(xy 394.97 110.49) (xy 394.97 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cea213e-e9dc-4049-a3d3-2199532a0a1a")
+	)
+	(wire
+		(pts
+			(xy 171.45 124.46) (xy 173.99 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f563036-a26a-4d54-b97d-5f8a8f96de14")
+	)
+	(wire
+		(pts
+			(xy 48.26 161.29) (xy 49.53 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209b0b64-5e72-40e4-80d1-d3a6b71f9cb3")
+	)
+	(wire
+		(pts
+			(xy 318.77 73.66) (xy 344.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2614bfef-b429-43ac-94bc-d65e9c3fff52")
+	)
+	(wire
+		(pts
+			(xy 242.57 90.17) (xy 267.97 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26fe207d-2190-40e1-9765-e3af8ba17486")
+	)
+	(wire
+		(pts
+			(xy 115.57 80.01) (xy 115.57 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270c29af-943f-41dc-9aa2-fa4b6db72960")
+	)
+	(wire
+		(pts
+			(xy 240.03 132.08) (xy 240.03 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2731efea-c709-411d-9c98-b19eb36400cb")
+	)
+	(wire
+		(pts
+			(xy 39.37 60.96) (xy 38.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281a4a3d-5dae-4659-8cc3-272183bcb7c3")
+	)
+	(wire
+		(pts
+			(xy 115.57 92.71) (xy 140.97 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "286a8608-ce2a-4889-909b-52d8048483af")
+	)
+	(wire
+		(pts
+			(xy 300.99 99.06) (xy 302.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2870ef43-ff43-4a0c-b059-b3ab27b3d2ea")
+	)
+	(wire
+		(pts
+			(xy 166.37 99.06) (xy 166.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28ff4860-be77-43d1-a867-89c3a8c56961")
+	)
+	(wire
+		(pts
+			(xy 62.23 71.12) (xy 64.77 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a423170-0996-44f5-92cd-4d068a8c8a1e")
+	)
+	(wire
+		(pts
+			(xy 217.17 54.61) (xy 217.17 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7833bf-8429-4db7-bd7f-9c98bb9787e9")
+	)
+	(wire
+		(pts
+			(xy 173.99 99.06) (xy 175.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2accf5f0-377c-4367-bad8-bdc97db28350")
+	)
+	(wire
+		(pts
+			(xy 148.59 80.01) (xy 148.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd930e8-2793-4678-9c58-6da7bf8c10ee")
+	)
+	(wire
+		(pts
+			(xy 213.36 137.16) (xy 199.39 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9d8a7d-6e9f-4c07-bd7f-7a6aac1f57c2")
+	)
+	(wire
+		(pts
+			(xy 90.17 73.66) (xy 90.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d976130-18a4-4b36-b69c-b51215621749")
+	)
+	(wire
+		(pts
+			(xy 140.97 54.61) (xy 166.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2f40cd-ca7a-4c55-990c-9b9831c9d5f2")
+	)
+	(wire
+		(pts
+			(xy 166.37 60.96) (xy 166.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4262b1-7330-4579-9cee-68cd559783f7")
+	)
+	(wire
+		(pts
+			(xy 275.59 99.06) (xy 276.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ffd6f33-955c-4d48-8274-ff1631e2c61e")
+	)
+	(wire
+		(pts
+			(xy 114.3 118.11) (xy 115.57 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "305aa1e2-1cb1-48a5-a48a-6c87fb45b65e")
+	)
+	(wire
+		(pts
+			(xy 63.5 99.06) (xy 64.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30de8988-766a-40ba-92f1-c834ee817645")
+	)
+	(wire
+		(pts
+			(xy 49.53 186.69) (xy 52.07 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31765ed7-cbe7-46a4-adfa-ed8c87bd590c")
+	)
+	(wire
+		(pts
+			(xy 48.26 118.11) (xy 46.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b2ca26-367e-4d0e-a695-ad3067085142")
+	)
+	(wire
+		(pts
+			(xy 72.39 80.01) (xy 73.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32bb18d0-29f4-44f1-b924-803ca1c55b0e")
+	)
+	(wire
+		(pts
+			(xy 88.9 80.01) (xy 90.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3338fec9-827c-494b-8bab-8326dd4dc3f7")
+	)
+	(wire
+		(pts
+			(xy 250.19 80.01) (xy 250.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "334c728e-9f5b-4d19-9b27-7a8f455a7280")
+	)
+	(wire
+		(pts
+			(xy 318.77 54.61) (xy 344.17 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3455f0bf-8146-4d75-b6b2-1d4a1dba2332")
+	)
+	(wire
+		(pts
+			(xy 148.59 118.11) (xy 148.59 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3601c9f4-d62b-4aea-a4ff-e34bc324c7b0")
+	)
+	(wire
+		(pts
+			(xy 394.97 54.61) (xy 394.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366f94b0-5ba1-4c14-996d-0551882572de")
+	)
+	(wire
+		(pts
+			(xy 140.97 92.71) (xy 166.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e2c291-79c3-4617-9aef-6f7fb78c9bb1")
+	)
+	(wire
+		(pts
+			(xy 353.06 118.11) (xy 351.79 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b0ce881-1772-4c11-b779-6cfafe0b745d")
+	)
+	(wire
+		(pts
+			(xy 49.53 186.69) (xy 48.26 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e26c418-5b3c-40f9-a27a-49359d399184")
+	)
+	(wire
+		(pts
+			(xy 226.06 60.96) (xy 224.79 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6972e2-dc29-4b46-8243-5fc430665f86")
+	)
+	(wire
+		(pts
+			(xy 293.37 110.49) (xy 318.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3efc00a7-8110-40d1-8e5c-1bb8b8df627c")
+	)
+	(wire
+		(pts
+			(xy 97.79 80.01) (xy 97.79 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f03d511-4ddb-43d5-82ad-eac8fd202096")
+	)
+	(wire
+		(pts
+			(xy 317.5 80.01) (xy 318.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0e1ce2-5062-4dd6-ad59-a86c09297870")
+	)
+	(wire
+		(pts
+			(xy 63.5 118.11) (xy 64.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5a1878-09da-4332-89e2-466289deb8fc")
+	)
+	(wire
+		(pts
+			(xy 326.39 118.11) (xy 326.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d6ca07-75d6-46b7-8c63-99add3c3ac85")
+	)
+	(wire
+		(pts
+			(xy 149.86 60.96) (xy 148.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40fa35c2-46f9-4cb2-ba41-e2c29aade4a0")
+	)
+	(wire
+		(pts
+			(xy 173.99 80.01) (xy 175.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418cc04d-9e7d-41d1-b603-af8c10528d2d")
+	)
+	(wire
+		(pts
+			(xy 115.57 73.66) (xy 140.97 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42512f2c-8cde-40f2-8439-7e18919d3d23")
+	)
+	(wire
+		(pts
+			(xy 241.3 60.96) (xy 242.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4324a37f-ee67-40a3-87d0-96abfb3c3215")
+	)
+	(wire
+		(pts
+			(xy 148.59 118.11) (xy 149.86 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4509c291-97f9-4384-a756-0869122b7416")
+	)
+	(wire
+		(pts
+			(xy 39.37 52.07) (xy 39.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4513b43a-388b-4b53-a4e1-2765d17b02e3")
+	)
+	(wire
+		(pts
+			(xy 342.9 60.96) (xy 344.17 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c3c5b4-f2de-41c0-876d-d0d4e0f3a962")
+	)
+	(wire
+		(pts
+			(xy 242.57 99.06) (xy 242.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477fc595-f17a-467b-a42e-9583d3010342")
+	)
+	(wire
+		(pts
+			(xy 317.5 118.11) (xy 318.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4796d4dc-1873-4594-966b-b132d75127df")
+	)
+	(wire
+		(pts
+			(xy 326.39 80.01) (xy 326.39 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47fc3487-ff60-4fa6-b6bc-8152a1f53ce7")
+	)
+	(wire
+		(pts
+			(xy 342.9 80.01) (xy 344.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4892ae96-ea78-470e-9688-7f4eabf3836c")
+	)
+	(wire
+		(pts
+			(xy 191.77 111.76) (xy 240.03 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a284c3c-f3ea-4bc8-8f63-7cdda5eb5afb")
+	)
+	(wire
+		(pts
+			(xy 115.57 54.61) (xy 90.17 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b15d248-aa78-46f1-9e72-bd2dfe748a14")
+	)
+	(wire
+		(pts
+			(xy 242.57 73.66) (xy 267.97 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c0a7cff-820b-4e78-a8cc-c1de18ed9503")
+	)
+	(wire
+		(pts
+			(xy 275.59 60.96) (xy 275.59 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d96d07c-132c-4c15-aaee-286ac55d0369")
+	)
+	(wire
+		(pts
+			(xy 97.79 99.06) (xy 97.79 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4d74b0-c66c-40b4-a982-9ae4d4312e21")
+	)
+	(wire
+		(pts
+			(xy 97.79 86.36) (xy 97.79 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8d6a36-e92e-41f0-9698-cf10895f8eb8")
+	)
+	(wire
+		(pts
+			(xy 300.99 80.01) (xy 300.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe606e4-ada1-448f-befc-8f976050e79e")
+	)
+	(wire
+		(pts
+			(xy 190.5 80.01) (xy 191.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506ae362-b470-43e3-a1b1-9c2b6dcfcda7")
+	)
+	(wire
+		(pts
+			(xy 64.77 60.96) (xy 64.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e91766-f4e6-4c5f-a671-a7db0b647158")
+	)
+	(wire
+		(pts
+			(xy 351.79 99.06) (xy 353.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e734a3-ac7b-4058-9f49-c921b59fb176")
+	)
+	(wire
+		(pts
+			(xy 191.77 73.66) (xy 217.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52128222-e46c-4ca5-bb00-bdf515db599b")
+	)
+	(wire
+		(pts
+			(xy 46.99 53.34) (xy 377.19 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f91c10-628e-4690-a1a5-6e8f076b6988")
+	)
+	(wire
+		(pts
+			(xy 72.39 99.06) (xy 72.39 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ddd3e0-e689-4ec7-8c1e-32ccd507a85f")
+	)
+	(wire
+		(pts
+			(xy 48.26 173.99) (xy 49.53 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55de81de-72e1-4ada-9092-1d27e3894ca5")
+	)
+	(wire
+		(pts
+			(xy 148.59 80.01) (xy 149.86 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e0f6f9-8f16-4e92-839b-2534d36888a6")
+	)
+	(wire
+		(pts
+			(xy 123.19 118.11) (xy 124.46 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55fed6e5-0c65-4b21-828b-327ed9b094a4")
+	)
+	(wire
+		(pts
+			(xy 173.99 60.96) (xy 173.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56418c72-1582-4295-a6de-1f09cc302e82")
+	)
+	(wire
+		(pts
+			(xy 267.97 90.17) (xy 293.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5681630a-6823-46f8-a3e9-c4c6ac3c6405")
+	)
+	(wire
+		(pts
+			(xy 64.77 80.01) (xy 64.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a852a8-4583-4d6b-af57-e5f0507093f5")
+	)
+	(wire
+		(pts
+			(xy 293.37 99.06) (xy 293.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5852ad54-6f4e-4120-b0a1-ded13892ac00")
+	)
+	(wire
+		(pts
+			(xy 72.39 60.96) (xy 72.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5870abc8-8a56-4f5d-898e-4c914d24deae")
+	)
+	(wire
+		(pts
+			(xy 378.46 80.01) (xy 377.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58dde0c4-c6d3-45a8-9fdf-f4b0da3c7e03")
+	)
+	(wire
+		(pts
+			(xy 191.77 80.01) (xy 191.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591c68b4-d92b-4e03-a3d9-2fbbbcbf1563")
+	)
+	(wire
+		(pts
+			(xy 293.37 54.61) (xy 318.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ce6daa-b30e-404d-b1ab-4d5137ae7ff5")
+	)
+	(wire
+		(pts
+			(xy 368.3 60.96) (xy 369.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cd59eaa-d66c-43bd-b6c7-199020defed9")
+	)
+	(wire
+		(pts
+			(xy 49.53 173.99) (xy 49.53 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d1f0ab4-4b62-48d2-bd32-3074d6955b24")
+	)
+	(wire
+		(pts
+			(xy 223.52 118.11) (xy 222.25 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d673343-2e5a-4d82-b731-ade0487085d9")
+	)
+	(wire
+		(pts
+			(xy 175.26 60.96) (xy 173.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d94b5e7-7f0f-4cb9-a29e-b1313833723a")
+	)
+	(wire
+		(pts
+			(xy 344.17 110.49) (xy 369.57 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e4b02c2-93f9-4d26-87ec-db753d1ce861")
+	)
+	(wire
+		(pts
+			(xy 369.57 118.11) (xy 369.57 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e583b05-08ed-40a9-b0b9-8698ed4acbdc")
+	)
+	(wire
+		(pts
+			(xy 300.99 99.06) (xy 300.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e5b5215-5ddc-4519-920d-80df8a19fae8")
+	)
+	(wire
+		(pts
+			(xy 97.79 60.96) (xy 97.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e81f8d6-b142-443d-851e-86092e4c6540")
+	)
+	(wire
+		(pts
+			(xy 140.97 99.06) (xy 140.97 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e87d017-8101-405d-96d6-bb1dffe830eb")
+	)
+	(wire
+		(pts
+			(xy 394.97 92.71) (xy 394.97 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fbde585-09f1-4895-9e20-87c2e69d52c8")
+	)
+	(wire
+		(pts
+			(xy 275.59 127) (xy 275.59 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6026878e-2bde-47e8-a014-2b2c927b17fe")
+	)
+	(wire
+		(pts
+			(xy 240.03 137.16) (xy 240.03 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605f6285-a5ee-406d-bc9e-e840d0478cd2")
+	)
+	(wire
+		(pts
+			(xy 90.17 92.71) (xy 115.57 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60cc8580-3746-45f2-a5bb-68c84db26f75")
+	)
+	(wire
+		(pts
+			(xy 240.03 118.11) (xy 238.76 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623e80be-8afe-44ab-9da2-7f2fea0d020f")
+	)
+	(wire
+		(pts
+			(xy 293.37 80.01) (xy 293.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62748806-feb3-4632-8524-058ba229dfb9")
+	)
+	(wire
+		(pts
+			(xy 267.97 73.66) (xy 293.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "638a25ae-fdec-4097-a09e-39041eb578c8")
+	)
+	(wire
+		(pts
+			(xy 200.66 80.01) (xy 199.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "683bb9a4-feeb-4d99-b5a6-128a81a73bac")
+	)
+	(wire
+		(pts
+			(xy 72.39 68.58) (xy 72.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698aafa4-a854-47b9-b437-47118ab90c31")
+	)
+	(wire
+		(pts
+			(xy 49.53 148.59) (xy 49.53 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a8b9bf-ee9d-44a2-a8eb-3ade9eef65a7")
+	)
+	(wire
+		(pts
+			(xy 224.79 67.31) (xy 199.39 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e630f7-7421-48b8-8bb3-5429275f606c")
+	)
+	(wire
+		(pts
+			(xy 377.19 99.06) (xy 378.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af96170-5f69-4b1d-bffc-057ded2e0385")
+	)
+	(wire
+		(pts
+			(xy 36.83 52.07) (xy 39.37 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5f8176-e434-46a1-b769-7b37886e87d6")
+	)
+	(wire
+		(pts
+			(xy 139.7 99.06) (xy 140.97 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df42fc4-9481-4903-ad6a-47eaecb125d4")
+	)
+	(wire
+		(pts
+			(xy 165.1 99.06) (xy 166.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e85f82d-50d5-4f21-be95-f6f1ed9232a4")
+	)
+	(wire
+		(pts
+			(xy 300.99 118.11) (xy 300.99 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6efea327-98f5-4fc1-8af8-c3f18b2da2fa")
+	)
+	(wire
+		(pts
+			(xy 173.99 99.06) (xy 173.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9a11dc-2642-4ba7-b407-f98d1d9e95b9")
+	)
+	(wire
+		(pts
+			(xy 267.97 60.96) (xy 267.97 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6faf65a0-c070-41db-abfe-85044dc0036c")
+	)
+	(wire
+		(pts
+			(xy 123.19 99.06) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70610b0a-6858-40bc-be02-e63c269dda21")
+	)
+	(wire
+		(pts
+			(xy 377.19 109.22) (xy 377.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ea653c-bbee-4def-ba67-f31976a56279")
+	)
+	(wire
+		(pts
+			(xy 72.39 127) (xy 72.39 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721d5a63-0a93-4e19-b2f1-569ed71df2d2")
+	)
+	(wire
+		(pts
+			(xy 90.17 54.61) (xy 64.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a44463-889b-43a0-8e22-6dd323d30ea2")
+	)
+	(wire
+		(pts
+			(xy 48.26 148.59) (xy 49.53 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7419ba22-29c9-4346-986f-f4945601de33")
+	)
+	(wire
+		(pts
+			(xy 199.39 67.31) (xy 199.39 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e0f62c-2249-4b31-bf58-dd220c5727e2")
+	)
+	(wire
+		(pts
+			(xy 250.19 99.06) (xy 251.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7618e64f-cb06-4e30-abc4-6489eae2a299")
+	)
+	(wire
+		(pts
+			(xy 165.1 60.96) (xy 166.37 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ee2db5-8b43-4008-9143-cec4a54912a6")
+	)
+	(wire
+		(pts
+			(xy 369.57 99.06) (xy 368.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770923aa-1711-4bbe-a3e2-42d47fce56f7")
+	)
+	(wire
+		(pts
+			(xy 219.71 118.11) (xy 222.25 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7729b65f-bab6-46c9-b8ae-439890afd0d6")
+	)
+	(wire
+		(pts
+			(xy 250.19 80.01) (xy 251.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772e5c7d-b2b7-428f-a7a0-45d65efa934c")
+	)
+	(wire
+		(pts
+			(xy 166.37 73.66) (xy 191.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e66646-dce4-4bb1-9d07-2dd7da7111e9")
+	)
+	(wire
+		(pts
+			(xy 199.39 137.16) (xy 199.39 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "790fd0d1-2abf-4b67-9ddf-2869c6819e23")
+	)
+	(wire
+		(pts
+			(xy 64.77 60.96) (xy 63.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a661b98-0afb-4fb9-8d77-15fd611c9bea")
+	)
+	(wire
+		(pts
+			(xy 326.39 80.01) (xy 327.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8b0594-41ed-414e-aee1-71148a64b446")
+	)
+	(wire
+		(pts
+			(xy 378.46 118.11) (xy 377.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1ff743-8157-4cc3-b700-4789c3f94d80")
+	)
+	(wire
+		(pts
+			(xy 377.19 109.22) (xy 46.99 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8eb7e0-f51f-4caa-b2d1-975883b11c56")
+	)
+	(wire
+		(pts
+			(xy 46.99 80.01) (xy 48.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cffe0a4-91a2-46e2-b901-a5c8b96b7c9a")
+	)
+	(wire
+		(pts
+			(xy 148.59 99.06) (xy 149.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d79e520-a3a8-4c9e-ade5-a8a0dc9bd0a5")
+	)
+	(wire
+		(pts
+			(xy 139.7 118.11) (xy 140.97 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea3a384-8845-408f-80e0-c74e4353ec04")
+	)
+	(wire
+		(pts
+			(xy 72.39 68.58) (xy 351.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1575d4-7807-4243-aa4f-123c295577d9")
+	)
+	(wire
+		(pts
+			(xy 344.17 80.01) (xy 344.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f96dbd2-f2e8-4a40-8653-f3ae5128fc93")
+	)
+	(wire
+		(pts
+			(xy 72.39 80.01) (xy 72.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb8a7ec-173f-41b6-bd38-97bc32b99825")
+	)
+	(wire
+		(pts
+			(xy 191.77 118.11) (xy 191.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fdce268-d272-4fb8-8eb6-644b5172ffde")
+	)
+	(wire
+		(pts
+			(xy 344.17 99.06) (xy 344.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81240952-ed69-47f4-9d58-053d219ba7e6")
+	)
+	(wire
+		(pts
+			(xy 292.1 118.11) (xy 293.37 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81467f69-1303-4960-8bf4-417f04964689")
+	)
+	(wire
+		(pts
+			(xy 165.1 80.01) (xy 166.37 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814ccd47-10ad-4a1a-9246-ef1e554cb446")
+	)
+	(wire
+		(pts
+			(xy 394.97 99.06) (xy 393.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828d4861-8728-4e9b-9970-27a98c3edf87")
+	)
+	(wire
+		(pts
+			(xy 241.3 80.01) (xy 242.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8294e3b5-2f4f-44f6-9ba1-3c062f7ea356")
+	)
+	(wire
+		(pts
+			(xy 217.17 60.96) (xy 215.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83101214-e7ce-4651-9ca1-8d2a7f197fe9")
+	)
+	(wire
+		(pts
+			(xy 394.97 110.49) (xy 397.51 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833d605c-852f-4366-af38-42ce23eeb73a")
+	)
+	(wire
+		(pts
+			(xy 217.17 92.71) (xy 394.97 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "835bd6fc-c0be-4451-86c6-63d73e2abee8")
+	)
+	(wire
+		(pts
+			(xy 344.17 60.96) (xy 344.17 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8395b5bd-c96e-426d-8ad4-fdc19f98b126")
+	)
+	(wire
+		(pts
+			(xy 369.57 54.61) (xy 394.97 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "846fcd52-e324-4f5a-a88c-6f2eadccda03")
+	)
+	(wire
+		(pts
+			(xy 394.97 73.66) (xy 397.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85023c67-aeef-476a-819b-dfb35a2b0abc")
+	)
+	(wire
+		(pts
+			(xy 46.99 60.96) (xy 46.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fcb022-8772-4db3-af27-e152273b0eb0")
+	)
+	(wire
+		(pts
+			(xy 266.7 80.01) (xy 267.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8628fdc8-7f46-4a02-a098-0f369a859908")
+	)
+	(wire
+		(pts
+			(xy 344.17 118.11) (xy 344.17 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87397445-5ba4-43be-87c7-464c1644f8cb")
+	)
+	(wire
+		(pts
+			(xy 139.7 60.96) (xy 140.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87af353e-be8c-4103-97a4-42b665aab802")
+	)
+	(wire
+		(pts
+			(xy 39.37 54.61) (xy 39.37 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8817693f-5983-4615-afe1-af44fabba579")
+	)
+	(wire
+		(pts
+			(xy 241.3 99.06) (xy 242.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8846b603-db5b-4feb-be7e-0baa7512ada1")
+	)
+	(wire
+		(pts
+			(xy 191.77 60.96) (xy 191.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8912a19d-b6b8-498c-97f4-00683894cd1f")
+	)
+	(wire
+		(pts
+			(xy 275.59 118.11) (xy 276.86 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce0efc2-84fb-4f80-bc64-8af08b8f0c7e")
+	)
+	(wire
+		(pts
+			(xy 302.26 118.11) (xy 300.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce91cf2-6934-48c3-bda5-d59f59677b92")
+	)
+	(wire
+		(pts
+			(xy 64.77 118.11) (xy 64.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f21b628-8fef-4039-8aa5-4765610689e9")
+	)
+	(wire
+		(pts
+			(xy 165.1 118.11) (xy 166.37 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd398d3-f67b-4a11-8d6d-372c5eaf44e5")
+	)
+	(wire
+		(pts
+			(xy 317.5 99.06) (xy 318.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe87d3f-bd66-46d1-a77e-64732f31926e")
+	)
+	(wire
+		(pts
+			(xy 199.39 60.96) (xy 200.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913626cc-330c-41ab-ac54-1923b2d0f3db")
+	)
+	(wire
+		(pts
+			(xy 72.39 99.06) (xy 73.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919afb34-e128-4067-a1e4-39f739c38fa0")
+	)
+	(wire
+		(pts
+			(xy 351.79 80.01) (xy 351.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922c708a-2ab4-4ef3-a29d-32c532625b12")
+	)
+	(wire
+		(pts
+			(xy 224.79 105.41) (xy 224.79 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92676589-b5b6-4f5d-8441-ed5373e4ffba")
+	)
+	(wire
+		(pts
+			(xy 69.85 127) (xy 72.39 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c31fdf-370b-4b12-a864-ef3b3496c5e3")
+	)
+	(wire
+		(pts
+			(xy 276.86 60.96) (xy 275.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943dc651-fde6-42d3-a09f-8eb1c7b6498a")
+	)
+	(wire
+		(pts
+			(xy 292.1 80.01) (xy 293.37 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973bb07e-edd6-47f7-8d80-b4e16cba38d9")
+	)
+	(wire
+		(pts
+			(xy 140.97 118.11) (xy 140.97 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9741aea2-c1fe-434e-8087-17654d7731de")
+	)
+	(wire
+		(pts
+			(xy 46.99 109.22) (xy 46.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97987b03-b0d6-4129-ab33-df70a56046f3")
+	)
+	(wire
+		(pts
+			(xy 300.99 80.01) (xy 302.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ff006c-c891-46fc-b469-d489f55a3b38")
+	)
+	(wire
+		(pts
+			(xy 123.19 107.95) (xy 123.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b591950-f9ad-4b88-8209-47d614a91ff7")
+	)
+	(wire
+		(pts
+			(xy 217.17 99.06) (xy 217.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4d36e4-63a5-49c7-bc6e-c0b851b8c94f")
+	)
+	(wire
+		(pts
+			(xy 293.37 60.96) (xy 293.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc52c8c-1c3f-4bf6-bf10-54ad5b979cfb")
+	)
+	(wire
+		(pts
+			(xy 300.99 107.95) (xy 300.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e17bffe-5400-4871-b448-4d2e07366096")
+	)
+	(wire
+		(pts
+			(xy 144.78 127) (xy 148.59 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e2b2db9-dfbc-4213-9556-f0f0f15f22b7")
+	)
+	(wire
+		(pts
+			(xy 222.25 80.01) (xy 224.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b334fc-c510-43fe-bda2-cf5395b6754d")
+	)
+	(wire
+		(pts
+			(xy 394.97 118.11) (xy 393.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17bd341-97bb-4d14-acba-7c3fc7a0ddde")
+	)
+	(wire
+		(pts
+			(xy 120.65 127) (xy 123.19 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ef6b56-69ea-43ed-88ad-fb53b5abb8e0")
+	)
+	(wire
+		(pts
+			(xy 351.79 80.01) (xy 353.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2157477-9159-4f16-ae31-65e60a2c2b15")
+	)
+	(wire
+		(pts
+			(xy 191.77 54.61) (xy 217.17 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2870b4c-b918-448f-94b7-2bae3e95a666")
+	)
+	(wire
+		(pts
+			(xy 369.57 60.96) (xy 369.57 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d529c5-1fe9-4c67-83b7-60dd1e7a9ce0")
+	)
+	(wire
+		(pts
+			(xy 326.39 99.06) (xy 327.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3eb959b-d223-4a25-8a1d-63dfea04aacb")
+	)
+	(wire
+		(pts
+			(xy 275.59 80.01) (xy 275.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ad4c79-a147-480c-950e-e2ad43ee5202")
+	)
+	(wire
+		(pts
+			(xy 44.45 49.53) (xy 46.99 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f7a33f-689e-465c-aefd-a6999e740fec")
+	)
+	(wire
+		(pts
+			(xy 148.59 127) (xy 275.59 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8cf6357-5350-4a19-a2b6-f580604bdd79")
+	)
+	(wire
+		(pts
+			(xy 199.39 80.01) (xy 199.39 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8e87386-c4b5-4958-addb-9fe3d66febc8")
+	)
+	(wire
+		(pts
+			(xy 64.77 90.17) (xy 242.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8fd2dc5-97f0-4340-b655-f8a9bf5f1b04")
+	)
+	(wire
+		(pts
+			(xy 140.97 60.96) (xy 140.97 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93061f0-dc63-475c-9d3d-fb8e3dd0931b")
+	)
+	(wire
+		(pts
+			(xy 173.99 118.11) (xy 175.26 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c02906-dbb2-4da7-957b-38ec247219a1")
+	)
+	(wire
+		(pts
+			(xy 267.97 110.49) (xy 267.97 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3a0093-ae74-4f55-a0bf-02b4474ec4b3")
+	)
+	(wire
+		(pts
+			(xy 266.7 99.06) (xy 267.97 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab71a8f3-9f32-49b6-9bb9-8447af2f37cc")
+	)
+	(wire
+		(pts
+			(xy 327.66 118.11) (xy 326.39 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6f54f2-4c6e-4749-9219-6bd7c4498a97")
+	)
+	(wire
+		(pts
+			(xy 224.79 60.96) (xy 224.79 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0a29b2-14e2-48c6-9edb-96965ef7882d")
+	)
+	(wire
+		(pts
+			(xy 46.99 80.01) (xy 46.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1ce9e2-680c-45b0-bb65-286719c7d31c")
+	)
+	(wire
+		(pts
+			(xy 114.3 99.06) (xy 115.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b145f0b9-f19b-4627-b639-f5332b4a884a")
+	)
+	(wire
+		(pts
+			(xy 250.19 60.96) (xy 250.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b28335b7-dedc-442d-bd93-c312471b11d3")
+	)
+	(wire
+		(pts
+			(xy 123.19 127) (xy 123.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b339b04f-3e5b-4d35-a44d-c76084e7960d")
+	)
+	(wire
+		(pts
+			(xy 318.77 118.11) (xy 318.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b33fa4c6-9ef8-423c-b2a9-af9e1ed56039")
+	)
+	(wire
+		(pts
+			(xy 123.19 80.01) (xy 123.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f74f58-9d17-4347-bf62-686e357efba8")
+	)
+	(wire
+		(pts
+			(xy 90.17 99.06) (xy 90.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50bd1d9-c224-4829-9edc-4943b21f3d7b")
+	)
+	(wire
+		(pts
+			(xy 64.77 71.12) (xy 64.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53ad374-25e6-46c2-bd1d-5d5d4fe10949")
+	)
+	(wire
+		(pts
+			(xy 394.97 54.61) (xy 397.51 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58b6138-373f-409e-91a7-74973cb24924")
+	)
+	(wire
+		(pts
+			(xy 99.06 60.96) (xy 97.79 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5fe8b51-f7d4-4401-ac56-43d7a899c34b")
+	)
+	(wire
+		(pts
+			(xy 394.97 80.01) (xy 393.7 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b607b028-9283-4576-b661-72c23570b179")
+	)
+	(wire
+		(pts
+			(xy 115.57 99.06) (xy 115.57 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b703afe8-ebad-414f-b66d-6065be7d9ff1")
+	)
+	(wire
+		(pts
+			(xy 123.19 107.95) (xy 300.99 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82552f8-d854-42fd-a8a2-fa2482362357")
+	)
+	(wire
+		(pts
+			(xy 115.57 111.76) (xy 140.97 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b895878b-f5a5-4e75-96ba-5defa556da04")
+	)
+	(wire
+		(pts
+			(xy 369.57 110.49) (xy 394.97 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b89c30be-8e5b-401e-9a36-2b905a699ca8")
+	)
+	(wire
+		(pts
+			(xy 292.1 99.06) (xy 293.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8adac48-e73c-4a35-8f51-df69337a55d0")
+	)
+	(wire
+		(pts
+			(xy 90.17 73.66) (xy 115.57 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8affcaf-e573-4a75-9085-e3fca967485a")
+	)
+	(wire
+		(pts
+			(xy 351.79 60.96) (xy 353.06 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ea267c-dfc4-42e4-80bb-0815ebfdb720")
+	)
+	(wire
+		(pts
+			(xy 394.97 60.96) (xy 393.7 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafe414c-4e96-470c-97d7-10d5127e9973")
+	)
+	(wire
+		(pts
+			(xy 64.77 73.66) (xy 90.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb800db0-02d5-4f39-8a7a-ca02f1dcf1f3")
+	)
+	(wire
+		(pts
+			(xy 293.37 118.11) (xy 293.37 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb688cb-8901-4a1e-9932-64a6da679d7e")
+	)
+	(wire
+		(pts
+			(xy 242.57 60.96) (xy 242.57 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9094f2-260b-4ece-9f78-e6acb86988b8")
+	)
+	(wire
+		(pts
+			(xy 190.5 118.11) (xy 191.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9c62df-57fb-4763-a2c2-9c2feeca9383")
+	)
+	(wire
+		(pts
+			(xy 190.5 60.96) (xy 191.77 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcc0e588-fea0-4cbf-b0bc-9060037585b7")
+	)
+	(wire
+		(pts
+			(xy 148.59 99.06) (xy 148.59 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd806b41-d112-4608-bcbb-d196fc7fda56")
+	)
+	(wire
+		(pts
+			(xy 240.03 111.76) (xy 240.03 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf5c20a-c6bf-46f8-8c6f-499b2c935a27")
+	)
+	(wire
+		(pts
+			(xy 166.37 54.61) (xy 191.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be7324fa-0076-479c-a3fd-4e4b050fbb18")
+	)
+	(wire
+		(pts
+			(xy 97.79 80.01) (xy 99.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00584ae-9a1a-4963-befe-a62ac6d92582")
+	)
+	(wire
+		(pts
+			(xy 351.79 99.06) (xy 351.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13c464d-3f33-4120-bc5f-f03a959fdca6")
+	)
+	(wire
+		(pts
+			(xy 250.19 124.46) (xy 250.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15412ed-2343-46db-9c32-99621fb29f6b")
+	)
+	(wire
+		(pts
+			(xy 228.6 137.16) (xy 240.03 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1dcb99d-3376-4be4-9cba-9842cc9772b1")
+	)
+	(wire
+		(pts
+			(xy 242.57 80.01) (xy 242.57 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2393bd0-7107-427a-a6b3-2817ff93fc90")
+	)
+	(wire
+		(pts
+			(xy 30.48 186.69) (xy 33.02 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c443ef38-0f11-4640-91bb-52fb84d5e47d")
+	)
+	(wire
+		(pts
+			(xy 30.48 173.99) (xy 33.02 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d863a8-6929-4af2-aacd-b388bf4da872")
+	)
+	(wire
+		(pts
+			(xy 318.77 80.01) (xy 318.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5bdc053-d61f-4ea0-a22b-c31790ddc8f1")
+	)
+	(wire
+		(pts
+			(xy 236.22 132.08) (xy 240.03 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f3ad51-5398-41b4-b092-ef9ef2724dbc")
+	)
+	(wire
+		(pts
+			(xy 224.79 99.06) (xy 226.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c793eb31-483b-4974-bad6-624660d3b88b")
+	)
+	(wire
+		(pts
+			(xy 63.5 90.17) (xy 64.77 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8181019-2728-43a7-b351-25d9a128deab")
+	)
+	(wire
+		(pts
+			(xy 97.79 127) (xy 97.79 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8cd5022-034a-4a15-a34d-196b73b97290")
+	)
+	(wire
+		(pts
+			(xy 140.97 80.01) (xy 140.97 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9109d6d-23f2-4c27-9a6a-3e73827fd34b")
+	)
+	(wire
+		(pts
+			(xy 342.9 99.06) (xy 344.17 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9eb1eb6-de9a-4f3c-a5d2-d3905dfbd52e")
+	)
+	(wire
+		(pts
+			(xy 224.79 67.31) (xy 224.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0dd74c-f1a2-46f2-b6e7-f265a9d75ade")
+	)
+	(wire
+		(pts
+			(xy 326.39 60.96) (xy 327.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb885e50-a876-4794-bd18-86f20c304e70")
+	)
+	(wire
+		(pts
+			(xy 377.19 60.96) (xy 378.46 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7ef3c8-aa05-4fe6-ae7a-e3d3d461245f")
+	)
+	(wire
+		(pts
+			(xy 90.17 60.96) (xy 88.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9c2536-24c8-4c2f-b4f9-b035de96e05c")
+	)
+	(wire
+		(pts
+			(xy 97.79 99.06) (xy 99.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccbb46fd-6a4e-4a2e-82e5-fdb2d82dbe05")
+	)
+	(wire
+		(pts
+			(xy 166.37 80.01) (xy 166.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd461741-d115-4114-a971-a694bb214530")
+	)
+	(wire
+		(pts
+			(xy 190.5 99.06) (xy 191.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8e3d64-d6ea-427f-abf2-2b5e9e2597c3")
+	)
+	(wire
+		(pts
+			(xy 115.57 60.96) (xy 115.57 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cddaaf37-0b12-4870-98a6-bc0440586ade")
+	)
+	(wire
+		(pts
+			(xy 344.17 54.61) (xy 369.57 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf35dff9-aede-42e9-9744-c4433f4b8b02")
+	)
+	(wire
+		(pts
+			(xy 394.97 73.66) (xy 394.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe94b0d-4506-4012-b5a0-c5514f97d0bd")
+	)
+	(wire
+		(pts
+			(xy 20.32 60.96) (xy 21.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d20f2a86-b79e-478c-af8e-b4dfe9dcdc3d")
+	)
+	(wire
+		(pts
+			(xy 368.3 80.01) (xy 369.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3dcf952-2d78-4b28-9522-bff97a008e3e")
+	)
+	(wire
+		(pts
+			(xy 173.99 124.46) (xy 250.19 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4dc2039-4793-44d5-91d1-fe7a20407b0e")
+	)
+	(wire
+		(pts
+			(xy 326.39 86.36) (xy 326.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64bbe55-f3b5-41d4-9b87-2fb37e20bf99")
+	)
+	(wire
+		(pts
+			(xy 64.77 110.49) (xy 267.97 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d679aacd-cebc-4c8c-9bf5-e5dbef944ddc")
+	)
+	(wire
+		(pts
+			(xy 63.5 80.01) (xy 64.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88f0070-4361-4018-99ed-8ce93db6bc43")
+	)
+	(wire
+		(pts
+			(xy 148.59 60.96) (xy 148.59 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d986ea30-e91b-4105-84e4-f94057c386e5")
+	)
+	(wire
+		(pts
+			(xy 267.97 80.01) (xy 267.97 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da97ae18-08c9-4fc1-b09c-4ac115ff2183")
+	)
+	(wire
+		(pts
+			(xy 267.97 54.61) (xy 293.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc481948-c8a2-4759-8f83-177251fc4949")
+	)
+	(wire
+		(pts
+			(xy 114.3 60.96) (xy 115.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce371cb-7d57-40a8-97ff-0f212bf3193a")
+	)
+	(wire
+		(pts
+			(xy 369.57 73.66) (xy 394.97 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda4a21f-6762-48ed-b9e4-be222e0e39bf")
+	)
+	(wire
+		(pts
+			(xy 64.77 99.06) (xy 64.77 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de516622-dddc-4590-a0f9-16acdf4adaaf")
+	)
+	(wire
+		(pts
+			(xy 140.97 73.66) (xy 166.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec3456c-7191-4ff0-bae5-b8512eb99a7a")
+	)
+	(wire
+		(pts
+			(xy 217.17 73.66) (xy 217.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded3a5dc-ba25-4c0c-87fd-3a217014a41a")
+	)
+	(wire
+		(pts
+			(xy 318.77 99.06) (xy 318.77 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09fc89f-fc32-421d-8b09-75a2e96d86e6")
+	)
+	(wire
+		(pts
+			(xy 342.9 118.11) (xy 344.17 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d615a5-d550-4bfc-a629-3d9c8471e070")
+	)
+	(wire
+		(pts
+			(xy 250.19 118.11) (xy 251.46 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ea8840-e94b-407a-9dc8-e1e117499e7b")
+	)
+	(wire
+		(pts
+			(xy 292.1 60.96) (xy 293.37 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e284608e-1924-4a1f-a79e-ef9de87aac82")
+	)
+	(wire
+		(pts
+			(xy 30.48 161.29) (xy 33.02 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e356637e-4d0f-4ae8-ba90-2db2a32c4ccf")
+	)
+	(wire
+		(pts
+			(xy 97.79 118.11) (xy 99.06 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37255e6-666a-4852-8ab4-acdc45f269f3")
+	)
+	(wire
+		(pts
+			(xy 30.48 148.59) (xy 33.02 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e42d3c0c-92e5-4887-9a48-01cc976555f0")
+	)
+	(wire
+		(pts
+			(xy 90.17 111.76) (xy 115.57 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e543e6db-7f2a-4849-8248-8e2bda63f69c")
+	)
+	(wire
+		(pts
+			(xy 199.39 105.41) (xy 224.79 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58ac119-1da2-4db4-b2c0-0b58f9793fc1")
+	)
+	(wire
+		(pts
+			(xy 88.9 118.11) (xy 90.17 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f30abd-99bf-469b-8c00-be85cfce5474")
+	)
+	(wire
+		(pts
+			(xy 46.99 118.11) (xy 21.59 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e680cef6-111f-461c-b787-66b37677248e")
+	)
+	(wire
+		(pts
+			(xy 266.7 60.96) (xy 267.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6a61305-db38-48c7-9a69-5d5b464b7a01")
+	)
+	(wire
+		(pts
+			(xy 49.53 161.29) (xy 49.53 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f5a72d-2c89-4154-ba1a-8d8e3501b2bf")
+	)
+	(wire
+		(pts
+			(xy 72.39 118.11) (xy 73.66 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e955a8c5-06e9-4e54-bf89-927ce1df1bc2")
+	)
+	(wire
+		(pts
+			(xy 200.66 99.06) (xy 199.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9dde9be-30e4-4add-9b9f-a718e139cf76")
+	)
+	(wire
+		(pts
+			(xy 21.59 118.11) (xy 21.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea02845d-e76d-4a9a-9285-63a63caf6095")
+	)
+	(wire
+		(pts
+			(xy 251.46 60.96) (xy 250.19 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb4293a-d098-4f3e-87b9-4cc08dcc83e3")
+	)
+	(wire
+		(pts
+			(xy 166.37 111.76) (xy 191.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef34348-2acf-4ec4-9b7e-c0826c5892b0")
+	)
+	(wire
+		(pts
+			(xy 217.17 80.01) (xy 215.9 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09ab0f1-dca0-4e02-bfd6-4f97fe7a66c0")
+	)
+	(wire
+		(pts
+			(xy 326.39 99.06) (xy 326.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2547ae8-5d3d-4f08-8fb7-7388d4d326af")
+	)
+	(wire
+		(pts
+			(xy 275.59 99.06) (xy 275.59 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ad8a82-966b-4508-88a9-cc97f765bdf4")
+	)
+	(wire
+		(pts
+			(xy 318.77 90.17) (xy 344.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3147ece-ae54-4fa4-be92-492ca0aeea91")
+	)
+	(wire
+		(pts
+			(xy 140.97 111.76) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42fbf2b-efbe-411d-a357-94874795cfe9")
+	)
+	(wire
+		(pts
+			(xy 369.57 90.17) (xy 369.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f696088b-bf85-4914-9927-a02d07dae0db")
+	)
+	(wire
+		(pts
+			(xy 368.3 118.11) (xy 369.57 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71f0625-d53e-4290-a968-9e2e6cd2b20b")
+	)
+	(wire
+		(pts
+			(xy 293.37 73.66) (xy 318.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71f477c-6318-48b0-b02d-8d1b31f90a6c")
+	)
+	(wire
+		(pts
+			(xy 95.25 127) (xy 97.79 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f79030ec-aa8c-48a2-b66f-bcb3e8c8f64d")
+	)
+	(wire
+		(pts
+			(xy 173.99 118.11) (xy 173.99 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7eb851e-6f66-4a11-8f38-c50b2269c897")
+	)
+	(wire
+		(pts
+			(xy 191.77 99.06) (xy 191.77 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86521b3-5ca9-48f1-8255-8ffa40c78a33")
+	)
+	(wire
+		(pts
+			(xy 124.46 60.96) (xy 123.19 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86b88fd-dbe7-48d4-9a96-d1d8a111c477")
+	)
+	(wire
+		(pts
+			(xy 90.17 60.96) (xy 90.17 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8cdccb0-5de6-4d8d-a859-001949022316")
+	)
+	(wire
+		(pts
+			(xy 97.79 86.36) (xy 326.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9268ed4-5700-4020-94bf-a3816753c8f3")
+	)
+	(wire
+		(pts
+			(xy 318.77 110.49) (xy 344.17 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9cc0820-3bc1-4544-9be0-287f0d05fd66")
+	)
+	(wire
+		(pts
+			(xy 377.19 53.34) (xy 377.19 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa1e9e40-1285-495f-8245-803589dd55a3")
+	)
+	(wire
+		(pts
+			(xy 73.66 60.96) (xy 72.39 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa41fb6a-3a15-44c3-8e41-07f487049804")
+	)
+	(wire
+		(pts
+			(xy 377.19 80.01) (xy 377.19 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb45ffd2-0953-4d70-bb46-e6baa5a6ced9")
+	)
+	(wire
+		(pts
+			(xy 123.19 80.01) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc00ba2e-8d05-42dd-9757-bb1e4661da52")
+	)
+	(wire
+		(pts
+			(xy 344.17 73.66) (xy 369.57 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1c0b96-7c36-47bf-845f-35b7bf175dae")
+	)
+	(wire
+		(pts
+			(xy 215.9 99.06) (xy 217.17 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc768501-51af-4f3f-8ac1-8ceb1ef017a4")
+	)
+	(wire
+		(pts
+			(xy 369.57 80.01) (xy 369.57 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2462f9-7f55-4a3b-8f62-22a0ca9ed8b8")
+	)
+	(wire
+		(pts
+			(xy 267.97 110.49) (xy 293.37 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd282708-f560-4346-a190-1403ea038243")
+	)
+	(wire
+		(pts
+			(xy 344.17 90.17) (xy 369.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3cd207-a7f2-42a6-98bb-bacd296f0115")
+	)
+	(wire
+		(pts
+			(xy 115.57 54.61) (xy 140.97 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff444663-adde-492f-8be3-8a664a32f375")
+	)
+	(wire
+		(pts
+			(xy 123.19 99.06) (xy 123.19 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fffd86bc-6c9b-4928-bd3c-cd19d9999265")
+	)
+	(global_label "2"
+		(shape input)
+		(at 397.51 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07a0f246-d212-42e2-9046-eaffbb002809")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 401.7047 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "6"
+		(shape input)
+		(at 63.5 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e298596-415d-45f5-8881-119da2bba1e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.3053 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "15"
+		(shape input)
+		(at 95.25 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f23e937-5092-4aec-ae54-b804ad086fab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.8458 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "9"
+		(shape input)
+		(at 20.32 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "104eca6a-1f7f-4686-9577-c67826a59e12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.1253 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "11"
+		(shape input)
+		(at 195.58 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "143b473b-9808-4dff-81da-6458294f9805")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.1758 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "22"
+		(shape input)
+		(at 52.07 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e7684ff-6b9a-4c4b-b3c6-f6aa3757fcc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.4742 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12"
+		(shape input)
+		(at 171.45 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35a9f998-9713-42b7-b133-2b2e97e7bac5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.0458 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "14"
+		(shape input)
+		(at 120.65 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "415c5dac-4599-4858-a77c-67bd7ae4183d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.2458 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "16"
+		(shape input)
+		(at 69.85 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45aad382-f4f0-4049-bdf1-e9b6d107000e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.4458 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "17"
+		(shape input)
+		(at 44.45 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "496666c7-6f1c-414b-b3ae-fc1d99d8a068")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.0458 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3"
+		(shape input)
+		(at 62.23 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bdd0a5e-7aec-41ef-8eca-7e8c41856db4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.0353 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "4"
+		(shape input)
+		(at 397.51 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d9fd9f4-bb52-45ad-936a-28a50f9c24c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 401.7047 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "7"
+		(shape input)
+		(at 236.22 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58f4e2e2-d5d2-4a48-b499-2c343ce72206")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.0253 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "18"
+		(shape input)
+		(at 30.48 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "594ece43-2247-4180-8bf1-87c2ba067e9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.0758 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "8"
+		(shape input)
+		(at 397.51 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bf7101d-b8b9-423f-96e8-5cf65b318892")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 401.7047 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "21"
+		(shape input)
+		(at 30.48 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c211884-a4aa-42f4-b6f4-45e6124ab21e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.0758 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5"
+		(shape input)
+		(at 397.51 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c6579e2-48fe-4e56-bad4-20002dff57fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 401.7047 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "19"
+		(shape input)
+		(at 30.48 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86b9d700-c902-4e5e-baff-3353da74b811")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.0758 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "10"
+		(shape input)
+		(at 219.71 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b58251b-2473-4530-9003-cfc687bc0d03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.3058 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "20"
+		(shape input)
+		(at 30.48 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae11d278-8576-4d4c-8423-86d9cfa874a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.0758 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "1"
+		(shape input)
+		(at 36.83 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b859a43b-bbaf-4e4f-9baf-46bd50e3bf59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.6353 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "13"
+		(shape input)
+		(at 144.78 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d48a49e3-a8f3-48e4-8d7b-c78f3e436666")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.3758 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 233.68 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "009ef260-7cda-4783-8bb1-f49259d41914")
+		(property "Reference" "K23"
+			(at 233.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Y"
+			(at 233.68 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fcff7442-7af6-44ce-bbb4-254836f828de")
+		)
+		(pin ""
+			(uuid "d89e8d12-cb38-4755-bed0-aeb84a35a904")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 335.28 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "030749d1-0856-4716-ba6a-a0f60bb8b730")
+		(property "Reference" "K13"
+			(at 335.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "2"
+			(at 335.28 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d640cc58-e329-4343-bebf-c9e4b500b3d3")
+		)
+		(pin ""
+			(uuid "4acb619c-a656-468e-b426-fa9f175cd88a")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 157.48 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05406053-5565-4f71-b40e-b117c8b1d180")
+		(property "Reference" "K20"
+			(at 157.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 157.48 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fcff7442-7af6-44ce-bbb4-254836f828de")
+		)
+		(pin ""
+			(uuid "d89e8d12-cb38-4755-bed0-aeb84a35a904")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 386.08 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "091c2d04-e1ff-465e-86b6-26adadb0672b")
+		(property "Reference" "K55"
+			(at 386.08 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Shift"
+			(at 386.08 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 386.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "026e9c93-5ece-401f-b0b2-7659f731121c")
+		)
+		(pin ""
+			(uuid "2b91a9ba-2bdb-42de-973c-d085f4481948")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 182.88 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dffb1b6-3a4a-41f9-8f7d-260a4411a9a5")
+		(property "Reference" "K7"
+			(at 182.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "8"
+			(at 182.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d640cc58-e329-4343-bebf-c9e4b500b3d3")
+		)
+		(pin ""
+			(uuid "4acb619c-a656-468e-b426-fa9f175cd88a")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 182.88 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "101bd6be-34ca-4f5f-930c-555611eea376")
+		(property "Reference" "K21"
+			(at 182.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "I"
+			(at 182.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fcff7442-7af6-44ce-bbb4-254836f828de")
+		)
+		(pin ""
+			(uuid "d89e8d12-cb38-4755-bed0-aeb84a35a904")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 335.28 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19dc4e91-cdff-4607-ab95-51ea3f8ad2a4")
+		(property "Reference" "K27"
+			(at 335.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "W"
+			(at 335.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fcff7442-7af6-44ce-bbb4-254836f828de")
+		)
+		(pin ""
+			(uuid "d89e8d12-cb38-4755-bed0-aeb84a35a904")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 106.68 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cda5d20-de40-4f65-bcb0-e1957f2b97eb")
+		(property "Reference" "K45"
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "/"
+			(at 106.68 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "026e9c93-5ece-401f-b0b2-7659f731121c")
+		)
+		(pin ""
+			(uuid "2b91a9ba-2bdb-42de-973c-d085f4481948")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 157.48 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dc93ac9-4a56-4793-a36b-b57e57fcae58")
+		(property "Reference" "K47"
+			(at 157.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ","
+			(at 157.48 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "026e9c93-5ece-401f-b0b2-7659f731121c")
+		)
+		(pin ""
+			(uuid "2b91a9ba-2bdb-42de-973c-d085f4481948")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 157.48 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24fb17b9-f58d-4eb1-a998-a14b85e79e9d")
+		(property "Reference" "K6"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "9"
+			(at 157.48 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d640cc58-e329-4343-bebf-c9e4b500b3d3")
+		)
+		(pin ""
+			(uuid "4acb619c-a656-468e-b426-fa9f175cd88a")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 259.08 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2937ac82-1791-4cbd-ba32-02018010a666")
+		(property "Reference" "K50"
+			(at 259.08 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "B"
+			(at 259.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "026e9c93-5ece-401f-b0b2-7659f731121c")
+		)
+		(pin ""
+			(uuid "2b91a9ba-2bdb-42de-973c-d085f4481948")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 106.68 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29759e2a-5f10-44d1-bd72-e0dddd2a8adb")
+		(property "Reference" "K18"
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-"
+			(at 106.68 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fcff7442-7af6-44ce-bbb4-254836f828de")
+		)
+		(pin ""
+			(uuid "d89e8d12-cb38-4755-bed0-aeb84a35a904")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 220.98 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29938130-7890-4859-b9af-e477118d670f")
+		(property "Reference" "K56"
+			(at 220.98 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Space"
+			(at 220.98 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "026e9c93-5ece-401f-b0b2-7659f731121c")
+		)
+		(pin ""
+			(uuid "2b91a9ba-2bdb-42de-973c-d085f4481948")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 182.88 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3497d321-3659-4b2f-96a9-ac79236f2241")
+		(property "Reference" "K"
+			(at 182.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bf16e571-f210-4c98-adaf-1ecdcb8e71db")
+		)
+		(pin ""
+			(uuid "002c2e02-bc3f-4294-b490-1457ff4b3d28")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 231.14 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39af2a17-08d1-446d-bc5c-bcd8ed0fdd68")
+		(property "Reference" "K49"
+			(at 231.14 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "N"
+			(at 231.14 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "026e9c93-5ece-401f-b0b2-7659f731121c")
+		)
+		(pin ""
+			(uuid "2b91a9ba-2bdb-42de-973c-d085f4481948")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 335.28 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c2b2e79-01cd-44f6-b56f-58427452e18d")
+		(property "Reference" "K53"
+			(at 335.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "X"
+			(at 335.28 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "026e9c93-5ece-401f-b0b2-7659f731121c")
+		)
+		(pin ""
+			(uuid "2b91a9ba-2bdb-42de-973c-d085f4481948")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 81.28 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ed3d708-3723-4420-b88f-d81402484c78")
+		(property "Reference" "K31"
+			(at 81.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "*"
+			(at 81.28 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bf16e571-f210-4c98-adaf-1ecdcb8e71db")
+		)
+		(pin ""
+			(uuid "002c2e02-bc3f-4294-b490-1457ff4b3d28")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 40.64 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f06fd0b-d911-42d1-8bc8-4e878f85eb43")
+		(property "Reference" "K59"
+			(at 40.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Select"
+			(at 40.64 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ad4edd5a-943c-4c72-9dc8-5a54c9753ab2")
+		)
+		(pin ""
+			(uuid "1456cbfa-3d47-44c2-a7a9-5e0661fa0002")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 309.88 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5332cf25-1e51-444a-9331-6eed34d7a3d1")
+		(property "Reference" "K12"
+			(at 309.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3"
+			(at 309.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d640cc58-e329-4343-bebf-c9e4b500b3d3")
+		)
+		(pin ""
+			(uuid "4acb619c-a656-468e-b426-fa9f175cd88a")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 309.88 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e99841c-5b0a-4fe0-8626-037054459cdf")
+		(property "Reference" "K40"
+			(at 309.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "D"
+			(at 309.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bf16e571-f210-4c98-adaf-1ecdcb8e71db")
+		)
+		(pin ""
+			(uuid "002c2e02-bc3f-4294-b490-1457ff4b3d28")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 132.08 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60874291-6b37-444d-aa64-8a7311e2fa4c")
+		(property "Reference" "K19"
+			(at 132.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P"
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fcff7442-7af6-44ce-bbb4-254836f828de")
+		)
+		(pin ""
+			(uuid "d89e8d12-cb38-4755-bed0-aeb84a35a904")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 55.88 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64e2c581-a768-4843-8bb8-361fdc073804")
+		(property "Reference" "K2"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Delete"
+			(at 56.134 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d1ed3b5b-0caa-44c7-8c6c-6820e9e5063f")
+		)
+		(pin ""
+			(uuid "7bcea490-dbe8-4c14-8f9a-2a9a722216b8")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 106.68 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "679048dc-1eb6-4ad3-a6f5-a63c39ea2887")
+		(property "Reference" "K32"
+			(at 106.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bf16e571-f210-4c98-adaf-1ecdcb8e71db")
+		)
+		(pin ""
+			(uuid "002c2e02-bc3f-4294-b490-1457ff4b3d28")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 55.88 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c1b0757-34d5-4035-b52d-c3b9869d7687")
+		(property "Reference" "K30"
+			(at 55.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Caps"
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bf16e571-f210-4c98-adaf-1ecdcb8e71db")
+		)
+		(pin ""
+			(uuid "002c2e02-bc3f-4294-b490-1457ff4b3d28")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 360.68 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cb2efb2-8487-4656-8bf8-cbf645d78caf")
+		(property "Reference" "K28"
+			(at 360.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Q"
+			(at 360.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fdc0085c-663c-4de3-8969-09a746005830")
+		)
+		(pin ""
+			(uuid "bdbadced-e0a3-4403-9a12-b4354560449d")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 40.64 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d682b9c-b82a-46cc-b1f0-31d9d0926476")
+		(property "Reference" "K58"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Option"
+			(at 40.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ad4edd5a-943c-4c72-9dc8-5a54c9753ab2")
+		)
+		(pin ""
+			(uuid "1456cbfa-3d47-44c2-a7a9-5e0661fa0002")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 81.28 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73e9b5d8-f344-41a0-938c-f684fd774d34")
+		(property "Reference" "K3"
+			(at 81.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Insert"
+			(at 81.534 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8be740a5-5c27-4650-acee-8be977ab428c")
+		)
+		(pin ""
+			(uuid "e9bb8468-8685-49d2-897b-bb433279c0ec")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 106.68 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "784cea82-aefd-4d28-a331-d6d26eeb1b8c")
+		(property "Reference" "K4"
+			(at 106.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Clear"
+			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d640cc58-e329-4343-bebf-c9e4b500b3d3")
+		)
+		(pin ""
+			(uuid "4acb619c-a656-468e-b426-fa9f175cd88a")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 259.08 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cbb42b5-5ff5-45b2-8ac5-1567028c8eaa")
+		(property "Reference" "K24"
+			(at 259.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "T"
+			(at 259.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fcff7442-7af6-44ce-bbb4-254836f828de")
+		)
+		(pin ""
+			(uuid "d89e8d12-cb38-4755-bed0-aeb84a35a904")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 360.68 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80598c43-4ccd-4eda-9eee-14dad9c2a8ad")
+		(property "Reference" "K14"
+			(at 360.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1"
+			(at 360.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d640cc58-e329-4343-bebf-c9e4b500b3d3")
+		)
+		(pin ""
+			(uuid "4acb619c-a656-468e-b426-fa9f175cd88a")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 233.68 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85b7b6bc-8a88-4afd-9378-1d9e98e3a412")
+		(property "Reference" "K9"
+			(at 233.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "6"
+			(at 233.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d640cc58-e329-4343-bebf-c9e4b500b3d3")
+		)
+		(pin ""
+			(uuid "4acb619c-a656-468e-b426-fa9f175cd88a")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 132.08 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cb172f3-ae4e-4063-b12c-8a615afee2ff")
+		(property "Reference" "K5"
+			(at 132.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d640cc58-e329-4343-bebf-c9e4b500b3d3")
+		)
+		(pin ""
+			(uuid "4acb619c-a656-468e-b426-fa9f175cd88a")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 132.08 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d4a54bc-04e4-4407-9711-f58519d82ab4")
+		(property "Reference" "K33"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ";"
+			(at 132.08 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bf16e571-f210-4c98-adaf-1ecdcb8e71db")
+		)
+		(pin ""
+			(uuid "002c2e02-bc3f-4294-b490-1457ff4b3d28")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 284.48 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95381946-c1d5-4573-ac4d-0fbf4b79ff6b")
+		(property "Reference" "K25"
+			(at 284.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "R"
+			(at 284.48 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fcff7442-7af6-44ce-bbb4-254836f828de")
+		)
+		(pin ""
+			(uuid "d89e8d12-cb38-4755-bed0-aeb84a35a904")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 335.28 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9afcd644-ff50-4ae5-9234-1b8aa450f6d8")
+		(property "Reference" "K41"
+			(at 335.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "S"
+			(at 335.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bf16e571-f210-4c98-adaf-1ecdcb8e71db")
+		)
+		(pin ""
+			(uuid "002c2e02-bc3f-4294-b490-1457ff4b3d28")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 233.68 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e12f9c4-a46f-488c-8b65-eea23da3243c")
+		(property "Reference" "K37"
+			(at 233.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "H"
+			(at 233.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bf16e571-f210-4c98-adaf-1ecdcb8e71db")
+		)
+		(pin ""
+			(uuid "002c2e02-bc3f-4294-b490-1457ff4b3d28")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 55.88 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a02cb0a1-32ce-4f10-be50-b8a29ca0dec9")
+		(property "Reference" "K16"
+			(at 55.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Return"
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d640cc58-e329-4343-bebf-c9e4b500b3d3")
+		)
+		(pin ""
+			(uuid "4acb619c-a656-468e-b426-fa9f175cd88a")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 208.28 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2a536c6-ee5e-4591-9d44-50575c5fbb97")
+		(property "Reference" "K8"
+			(at 208.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "7"
+			(at 208.28 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d640cc58-e329-4343-bebf-c9e4b500b3d3")
+		)
+		(pin ""
+			(uuid "4acb619c-a656-468e-b426-fa9f175cd88a")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 30.48 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5ade562-1bd1-4ba9-b7d3-26ffdb91af19")
+		(property "Reference" "K1"
+			(at 30.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Break"
+			(at 30.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "0e43cb2b-9dde-4f04-8389-c56517fb3a95")
+		)
+		(pin ""
+			(uuid "9751992f-0145-4e0a-a648-b752186b4f24")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 81.28 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a77fc338-bca2-4906-ae1b-710c9ac521c7")
+		(property "Reference" "K17"
+			(at 81.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "="
+			(at 81.28 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fcff7442-7af6-44ce-bbb4-254836f828de")
+		)
+		(pin ""
+			(uuid "d89e8d12-cb38-4755-bed0-aeb84a35a904")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 284.48 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adbbbf11-11c8-4321-b191-0a99dcdea7a1")
+		(property "Reference" "K39"
+			(at 284.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "F"
+			(at 284.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bf16e571-f210-4c98-adaf-1ecdcb8e71db")
+		)
+		(pin ""
+			(uuid "002c2e02-bc3f-4294-b490-1457ff4b3d28")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 55.88 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b42d8547-399b-4e5f-a88f-db41a7dc72c0")
+		(property "Reference" "K35"
+			(at 55.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Shift"
+			(at 55.88 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "026e9c93-5ece-401f-b0b2-7659f731121c")
+		)
+		(pin ""
+			(uuid "2b91a9ba-2bdb-42de-973c-d085f4481948")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 309.88 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf510884-11ff-48e1-98b0-23e787440587")
+		(property "Reference" "K52"
+			(at 309.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 309.88 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "026e9c93-5ece-401f-b0b2-7659f731121c")
+		)
+		(pin ""
+			(uuid "2b91a9ba-2bdb-42de-973c-d085f4481948")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 259.08 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7b75282-24f5-4137-a73c-136146c9d00b")
+		(property "Reference" "K10"
+			(at 259.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5"
+			(at 259.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d640cc58-e329-4343-bebf-c9e4b500b3d3")
+		)
+		(pin ""
+			(uuid "4acb619c-a656-468e-b426-fa9f175cd88a")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 259.08 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc30587c-30ed-4f1c-9fb9-e39bcc2e63a0")
+		(property "Reference" "K38"
+			(at 259.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "G"
+			(at 259.08 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bf16e571-f210-4c98-adaf-1ecdcb8e71db")
+		)
+		(pin ""
+			(uuid "002c2e02-bc3f-4294-b490-1457ff4b3d28")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 208.28 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc51b23a-f3f1-49b6-926d-1615f5520eaf")
+		(property "Reference" "K22"
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "U"
+			(at 208.28 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fcff7442-7af6-44ce-bbb4-254836f828de")
+		)
+		(pin ""
+			(uuid "d89e8d12-cb38-4755-bed0-aeb84a35a904")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 386.08 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccc3a408-d454-4ef2-818b-2a95475794b7")
+		(property "Reference" "K29"
+			(at 386.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Tab"
+			(at 386.08 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 386.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fdc0085c-663c-4de3-8969-09a746005830")
+		)
+		(pin ""
+			(uuid "bdbadced-e0a3-4403-9a12-b4354560449d")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 386.08 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ceb73d42-4744-4cbf-a392-3285db7fd2e8")
+		(property "Reference" "K15"
+			(at 386.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Esc"
+			(at 386.08 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 386.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d640cc58-e329-4343-bebf-c9e4b500b3d3")
+		)
+		(pin ""
+			(uuid "4acb619c-a656-468e-b426-fa9f175cd88a")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 284.48 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2837f17-b824-4e15-9660-501823afda2a")
+		(property "Reference" "K51"
+			(at 284.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V"
+			(at 284.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "026e9c93-5ece-401f-b0b2-7659f731121c")
+		)
+		(pin ""
+			(uuid "2b91a9ba-2bdb-42de-973c-d085f4481948")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 386.08 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d439fa76-14c0-464e-89de-2a7f069b4f83")
+		(property "Reference" "K43"
+			(at 386.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Ctrl"
+			(at 386.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 386.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bf16e571-f210-4c98-adaf-1ecdcb8e71db")
+		)
+		(pin ""
+			(uuid "002c2e02-bc3f-4294-b490-1457ff4b3d28")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 81.28 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d441de9f-56cc-4278-b680-e46a99dadb1d")
+		(property "Reference" "K44"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Atari"
+			(at 81.28 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "026e9c93-5ece-401f-b0b2-7659f731121c")
+		)
+		(pin ""
+			(uuid "2b91a9ba-2bdb-42de-973c-d085f4481948")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 157.48 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dac25927-0b4e-418e-9ebf-29f560badb8d")
+		(property "Reference" "K34"
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "L"
+			(at 157.48 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bf16e571-f210-4c98-adaf-1ecdcb8e71db")
+		)
+		(pin ""
+			(uuid "002c2e02-bc3f-4294-b490-1457ff4b3d28")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 208.28 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dde8f2ad-5ed1-4f20-aee7-0ecf4b2b7286")
+		(property "Reference" "K36"
+			(at 208.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "J"
+			(at 208.28 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bf16e571-f210-4c98-adaf-1ecdcb8e71db")
+		)
+		(pin ""
+			(uuid "002c2e02-bc3f-4294-b490-1457ff4b3d28")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 182.88 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df3d4189-6a25-4a37-b8dd-2b1b955b46d0")
+		(property "Reference" "K48"
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "M"
+			(at 182.88 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "026e9c93-5ece-401f-b0b2-7659f731121c")
+		)
+		(pin ""
+			(uuid "2b91a9ba-2bdb-42de-973c-d085f4481948")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 360.68 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0961dc3-f87d-41ba-b2fb-4e4ceeca2a4c")
+		(property "Reference" "K42"
+			(at 360.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "A"
+			(at 360.68 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bf16e571-f210-4c98-adaf-1ecdcb8e71db")
+		)
+		(pin ""
+			(uuid "002c2e02-bc3f-4294-b490-1457ff4b3d28")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 309.88 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e547c637-9075-4978-9166-8fb3be42c3ef")
+		(property "Reference" "K26"
+			(at 309.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "E"
+			(at 309.88 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fcff7442-7af6-44ce-bbb4-254836f828de")
+		)
+		(pin ""
+			(uuid "d89e8d12-cb38-4755-bed0-aeb84a35a904")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 360.68 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e605762e-8387-4858-9dbb-661f1cf2d7c5")
+		(property "Reference" "K54"
+			(at 360.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Z"
+			(at 360.68 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "026e9c93-5ece-401f-b0b2-7659f731121c")
+		)
+		(pin ""
+			(uuid "2b91a9ba-2bdb-42de-973c-d085f4481948")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 132.08 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9f470a7-67fc-43d5-a91f-4bc1ac035e2a")
+		(property "Reference" "K46"
+			(at 132.08 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "."
+			(at 132.08 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "026e9c93-5ece-401f-b0b2-7659f731121c")
+		)
+		(pin ""
+			(uuid "2b91a9ba-2bdb-42de-973c-d085f4481948")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 40.64 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea39f45f-2c4c-478a-b653-e76df17843e5")
+		(property "Reference" "K57"
+			(at 40.64 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Reset"
+			(at 40.64 148.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ad4edd5a-943c-4c72-9dc8-5a54c9753ab2")
+		)
+		(pin ""
+			(uuid "1456cbfa-3d47-44c2-a7a9-5e0661fa0002")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 40.64 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec57e595-0345-4c15-8ae7-2154c23f4de9")
+		(property "Reference" "K60"
+			(at 40.64 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Start"
+			(at 40.64 186.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ad4edd5a-943c-4c72-9dc8-5a54c9753ab2")
+		)
+		(pin ""
+			(uuid "1456cbfa-3d47-44c2-a7a9-5e0661fa0002")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Atari 400:Key")
+		(lib_id "Atari 400:Key")
+		(at 284.48 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb16400f-733d-4213-b221-c51f65b0b506")
+		(property "Reference" "K11"
+			(at 284.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "4"
+			(at 284.48 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d640cc58-e329-4343-bebf-c9e4b500b3d3")
+		)
+		(pin ""
+			(uuid "4acb619c-a656-468e-b426-fa9f175cd88a")
+		)
+		(instances
+			(project ""
+				(path "/d24fcd17-a9e4-45f3-81ec-57276d632ae6"
+					(reference "K11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
